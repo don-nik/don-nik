@@ -1,43 +1,27 @@
-## 👨‍💻 Udvalgte projekter
+## Nikolaj Jenning Hansen
 
-### Automatisering af informationsdeling via Python (privat repository)
-Udviklede Python-script til automatiseret indhentning af data fra Google Drive og Google Sheets
-samt udsendelse af mails via SMTP med OAuth 2.0-autentificering.
-
-**Fokusområder**
-- API-integration (Google Drive & Sheets)
-- OAuth 2.0 og credential-håndtering
-- Automation og databehandling
-- Sikker håndtering af tokens og secrets
+Robotics and software developer at Uniwelco — robotic welding systems, where
+software meets production equipment. These are the projects I build outside work.
 
 ---
 
-### 🎮 Procedurally Generated RPG (Python)
-*Privat projekt – kode kan deles efter aftale*
+### The Beckoning — action RPG &nbsp;·&nbsp; private
 
-Langvarigt hobbyprojekt inspireret af *Diablo I*, udviklet i Python siden 2020.  
-Projektet fokuserer på spil-systemer, procedural generation og softwarearkitektur frem for en færdig kommerciel udgivelse.
+A top-down action RPG in the vein of Diablo 1, built solo in Python with pygame
+and in continuous development since January 2021. Procedurally generated
+dungeons with guaranteed connectivity, dynamic lighting and fog of war with an
+OpenGL path and a CPU fallback, and enemy AI on A* pathfinding.
 
-**Nøglefunktioner**
-- Top-down action RPG
-- Procedurally genererede dungeons (4×4 rooms)
-- Garanteret fuld sammenhæng mellem rum
-- Loot- og karakterprogression med data-drevne stats
-- Visuel repræsentation af udstyr på karakteren
+**1,239 commits &nbsp;·&nbsp; ~50,000 lines &nbsp;·&nbsp; 137 modules**
+<br>Python · pygame-ce · moderngl · numpy · pytmx · Tiled
 
-**Teknisk fokus**
-- Objektorienteret arkitektur
-- Procedural generation
-- Pathfinding og collision handling
-- Data-drevne systemer (items, stats, progression)
-- Adskillelse af logik, rendering og data
-- Kontinuerlig refaktorering
+![Underground, at the mouth of a cavern](screenshots/dungeon.png)
 
-Repo er privat grundet aktiv udvikling og brug af tredjeparts-assets.  
-Kode kan deles privat efter aftale.
+The repository is private: development is active, and the game ships several
+hundred third-party art and audio assets under CC-BY-SA, CC-BY, OGA-BY and GPL
+licences, which makes any public release its own piece of work.
 
----
+### Data automation &nbsp;·&nbsp; private
 
-### Credits
-- Musik: patrickdearteaga.com  
-- Pixel art: opengameart.org
+Python tooling that pulls data from Google Drive and Google Sheets and sends
+mail over SMTP, authenticating with OAuth 2.0.
